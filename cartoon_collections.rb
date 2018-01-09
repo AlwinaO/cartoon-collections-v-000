@@ -12,6 +12,10 @@ end
 
 def long_planeteer_calls(short_words)# code an argument here
   # Your code here
+  if short_words.length > 5
+    true
+  else
+    false
 end
 
 def find_the_cheese# code an argument here
